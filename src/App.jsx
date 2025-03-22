@@ -5,6 +5,8 @@ import Dashboard from './pages/Dashboard'
 import Invoices from './pages/Invoices';
 import Project from './pages/Project'
 import Tasks from './pages/Tasks';
+import Expenses from './pages/Expenses';
+
 
 
 import { BrowserRouter, Routes, Route } from "react-router";
@@ -20,6 +22,8 @@ function App() {
         <Route path='/tasks'  element = {<Tasks/>}/>
         <Route path='/contracts'  element = {<Contracts/>}/>
         <Route path='/invoices'  element = {<Invoices/>}/>
+        <Route path='/expenses'  element = {<Expenses/>}/>
+      
         {/* <Route path='/c'  element = {<Contracts/>}/> */}
       </Routes>
     </BrowserRouter>

@@ -73,19 +73,19 @@ export default function Sidebar({ children }) {
                 <TaskIcon /> Tasks
               </SideBarListItem>
 
-              <SideBarListItem>
+              <SideBarListItem to={"/clients"}>
                 <AssignmentIndIcon /> Clients
               </SideBarListItem>
 
-              <SideBarListItem>
+              <SideBarListItem to={"/company"}>
                 <BusinessIcon /> Company
               </SideBarListItem>
 
-              <SideBarListItem>
+              <SideBarListItem to={"/leads"}>
                 <PeopleAltIcon /> Leads
               </SideBarListItem>
 
-              <SideBarListItem>
+              <SideBarListItem to={"/deals"}>
                 <DescriptionIcon /> Deals
               </SideBarListItem>
 
@@ -104,17 +104,17 @@ export default function Sidebar({ children }) {
                   className={`ps-2 ${isListOpen ? "h-full  visible" : "h-0 invisible"} `}
                 >
                   <div className="">
-                    <SideBarListItem>
-                      <MonetizationOnIcon /> Invoice
+                    <SideBarListItem to={"/invoices"}>
+                      <MonetizationOnIcon /> Invoices
                     </SideBarListItem>
                   </div>
                   <div className="">
-                    <SideBarListItem>
+                    <SideBarListItem to={"/estimate"}>
                       <MonetizationOnIcon /> Estimate
                     </SideBarListItem>
                   </div>
                   <div className="">
-                    <SideBarListItem>
+                    <SideBarListItem to={"/expenses"}>
                       <MonetizationOnIcon /> Expenses
                     </SideBarListItem>
                   </div>
@@ -126,35 +126,35 @@ export default function Sidebar({ children }) {
                 </div>
               </div>
 
-              <SideBarListItem>
+              <SideBarListItem to={"/teams"}>
                 <GroupsIcon /> Teams
               </SideBarListItem>
 
-              <SideBarListItem>
+              <SideBarListItem to={"/reports"}>
                 <AssessmentIcon /> Reports
               </SideBarListItem>
 
-              <SideBarListItem>
+              <SideBarListItem to={"/tickets"}>
                 <SupportAgentIcon /> Tickets
               </SideBarListItem>
 
-              <SideBarListItem>
+              <SideBarListItem to={"/announcements"}>
                 <CampaignIcon /> Announcements
               </SideBarListItem>
 
-              <SideBarListItem>
+              <SideBarListItem to={"/notifications"}>
                 <CircleNotificationsIcon /> Notifications
               </SideBarListItem>
 
-              <SideBarListItem>
+              <SideBarListItem to={"/charts"}>
                 <ChatIcon /> Chats
               </SideBarListItem>
 
-              <SideBarListItem>
+              <SideBarListItem to={"/timesheet"}>
                 <EventNoteIcon /> Timesheet
               </SideBarListItem>
 
-              <SideBarListItem>
+              <SideBarListItem to={"profit"}>
                 <AccountCircleIcon /> Profile
               </SideBarListItem>
             </ul>
