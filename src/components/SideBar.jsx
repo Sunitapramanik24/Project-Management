@@ -161,7 +161,7 @@ export default function Sidebar({ children }) {
           </div>
         </div>
 
-        <div className="h-screen md:h-full w-screen  lg:w-full  ">
+        <div className=" h-[calc(100vh_-_5rem)] w-full relative overflow-y-scroll no-scrollbar ">
           {children}
         </div>
       </div>
